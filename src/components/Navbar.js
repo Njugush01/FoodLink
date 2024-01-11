@@ -1,20 +1,21 @@
 //import {component} from "react";
-//import React,  { useState } from 'react';
+import React,  { useState } from 'react';
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 //import {Link} from "react-router-dom"
 
 
 function Navbar(){
-    state = {clicked: false};
-    handleClick = () =>{
-        this.setState({clicked: !this.state.clicked})
+    const [clicked, setClicked] = useState(false);
+
+    const handleClick = () =>{
+        setClicked(!clicked);
     }
         return(
             <nav className="NavbarItems">
                 <h1 className="navbar-logo">Food Link</h1>
 
-                <div className="menu-icons" onClick={this.handleClick}>
+                <div className="menu-icons" onClick={handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
                 </div>
 
