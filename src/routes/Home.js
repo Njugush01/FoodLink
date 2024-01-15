@@ -1,5 +1,7 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
+import Causes from "../components/Causes"
+import Details from "../components/Details";
 function Home(){
     return(
         <>
@@ -13,6 +15,9 @@ function Home(){
         url="/"
         btnClass="show"      
         />
+        
+        <Causes/>
+        <Details/>
         </>
     )
 }
