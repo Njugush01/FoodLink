@@ -23,7 +23,7 @@ const Causes = () =>{
              className="first-des-reverse"
 
             heading= "Empowering Programs"
-            text= "At Food Banking Kenya, we’ve curated a suite of impactful programs tailored to address food insecurity at its root. From tapping into the heart of agriculture to emergency outreach, our initiatives span the entire food journey. Discover how we’re reviving agriculture, driving community participation, feeding our future generations, and extending a hand during crises. Dive in, and see how you can be a part of this transformative mission."
+            text= "At Food Link Kenya, we’ve curated a suite of impactful programs tailored to address food insecurity at its root. From tapping into the heart of agriculture to emergency outreach, our initiatives span the entire food journey. Discover how we’re reviving agriculture, driving community participation, feeding our future generations, and extending a hand during crises. Dive in, and see how you can be a part of this transformative mission."
             img1={Donation2}
             img2={kids}
             />

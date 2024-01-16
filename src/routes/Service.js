@@ -1,5 +1,8 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
+import Footer from "../components/Footer";
+import Serviceimg from "../assets/volunteer.jpg";
+import Help from "../components/Help";
 
 function Service(){
     return(
@@ -7,10 +10,12 @@ function Service(){
         <Navbar/>
         <Hero
         cName="hero-mid"
-        heroImg="https://images.unsplash.com/photo-1528502668750-88ba58015b2f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        heroImg={Serviceimg}
         title="Service"
         btnClass="hide"      
         />
+        <Help/>
+        <Footer/>
         </>
     )
 }

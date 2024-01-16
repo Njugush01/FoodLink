@@ -1,9 +1,9 @@
-import "./DetailsStyles.css"
+import "./HelpStyles.css"
 
-function DetailsData(props){
+function HelpData(props){
     return(
-        <div className="d-card">
-            <div className="d-image">
+        <div className="h-card">
+            <div className="h-image">
                 <img src={props.image} alt="image"/>
             </div>
             <h4>{props.heading}</h4>
@@ -12,4 +12,4 @@ function DetailsData(props){
     )
 }
 
-export default DetailsData;
+export default HelpData;
